@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_select_date_year"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/enter_year"
+        android:inputType="number"
+        android:maxLength="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/sp_select_date_month"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/array_month_names"
+        app:layout_constraintEnd_toEndOf="@id/et_select_date_year"
+        app:layout_constraintStart_toStartOf="@id/et_select_date_year"
+        app:layout_constraintTop_toBottomOf="@id/et_select_date_year" />
+
+    <Button
+        android:id="@+id/bt_set_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/set_date"
+        app:layout_constraintEnd_toEndOf="@id/sp_select_date_month"
+        app:layout_constraintStart_toStartOf="@id/sp_select_date_month"
+        app:layout_constraintTop_toBottomOf="@id/sp_select_date_month" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FRNDAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thats_all_folks">That\'s All Folks!!</string>
+    <string name="add_calendar_task">Add Task</string>
+    <string name="error_string">Oops!! Error Occurred.</string>
+    <string name="enter_task_title">Enter Task Title</string>
+    <string name="enter_task_description">Enter Task Description</string>
+    <string name="fill_all_values">Please Fill All Values</string>
+    <string name="success_add_task">Task Added Successfully</string>
+    <string name="enter_year">Enter Year</string>
+    <string name="set_date">Set Date</string>
+    <string name="proper_year">Please Enter Proper Year</string>
+    <string name="select_date_text">%s, %s</string>
+
+    <string-array name="array_weekday_names">
+        <item>Son</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <string-array name="array_month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
